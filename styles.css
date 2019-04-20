@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" );
+img{
+  max-width: 100%;
+}
+nav{
+
+  margin:0 auto;
+  margin-right:0%;
+  background-color:rgba(0,0,0,0.3);
+ 
+  float:right;
+}
+nav>ul{
+  float:right;
+  display:inline;
+}
+nav>ul>li>a{
+  padding:18px;
+  font-size:30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform:uppercase;
+  text-decoration:none;
+  display:block;
+  color:purple;
+}
+nav>ul>li>a:hover{
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  inset: 0 0 1px rgba(255,255,255,0.6);
+  background:rgba(221,109,35,0.678);
+  color:rgba(0,35,122,0.7);
+}
+  nav ul li{
+  display:inline-block;
+    margin-right:0;
+}
+ nav ul li:hover{
+  color:grey;
+}
+h1{
+  color:purple;
+  font-size:40px;
+  text-decoration:underline;
+  text-align: center;
+}
+#home{
+  font-size:20px;
+  color:purple;
+}
+#about{
+  font-size:25px;
+  color:black;
+}
+#h1{
+  color:purple;
+  font-size:40px;
+  font-weight:bold;
+}
+p{
+  color:purple;
+  font-size:30px;
+
+}
+  /*header img{*/
+  /*  float:left;*/
+  /*  height:80px;*/
+  /*  width:100px;*/
+
+  /*}*/
+  header{
+    background-color:pink;
+  }
+header img{
+  height: 100%;
+}
+.nas{
+  background-color:pink;
+}
+
+@media only screen and (max-width: 775px) {
+  body {
+    background-color:blue;
+  }
+  nav{
+    width:100%;
+  }
+}
+footer{
+  color:blue;
+  background-color: dark purple;
+  height: 200px;
+  padding:5px;
+}
+#call{
+  color:blue;
+}
+#button{
+  background-color: pink;
+  color: white;
+  float:right;
+  padding: 10px;
+}
+.images{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+#home{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom:50px;
+}
+table,th,td{
+  border:1px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+
+#unique{
+  color:purple;
+  text-decoration: underline;
+}
+#customer{
+  font-size:25px;
+  color:black;
+}
+#media{
+  display:inline-block;
+  background-color: pink;
+  width:100%;
+  text-align:center;
+}
+#media ul li{
+  display: inline-block;
+  text-align: center;
+} 
+#media img{
+  width:100px;
+  padding:20px;
+  margin:10px;
+}
+.images
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body{
+  background-color: pink;
+}
+.nasibo{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom:10px;
+  margin-top: 5px;
+}
+.p{
+  float: right;
+  text-align:right ;
+}
+body{
+  transition: 0.8s ease-in;
+}
+header img{
+  height:100px;
+  width:300px;
+}
+nas #img{
+  width:500px;
+  height:350px;
+}
+nas #phot{
+  height:350px;
+}
